@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes CSS</title>
+  
+    <style>
+        body {
+    font: 12pt Arial; background-color: blanchedalmond; 
+        }
+#primeiro-titulo {
+      text-align: left; color: aliceblue; font-family: Arial, Helvetica, sans-serif; ;font-size: 1.8em;
+
+        }    
+h1 {
+         text-align: center; font-size: 1.4em; font-weight: bold; background-color: blue ; text-decoration: underline;
+        }
+/* em css # refere-se ao elemento id do html  (apenas 1 por documento doc html*/
+/* em css . refere-se ao elemento class do html (podemos ter varios no mesmo html)*/
+
+
+        .padrao {
+            font-family: Arial, Helvetica, sans-serif;text-indent: 50pt; font-weight: bold; background-color:rgb(114, 114, 131);
+        }
+
+        .google {
+            font-family: 'Pacifico', cursive; background-color: aqua;
+        }
+
+        .local {
+            font-family: 'Minha Fonte', sans-serif;
+        }
+
+        .cor-de-fundo {
+            background-color: blueviolet;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1 id="primeiro-titulo">Utilizando ID e CLASS</h1>
+<h1>Primeira parte aula: Id e Classes em CSS &#x1F605;</h1>
+    <h2 class="padrao">Seletor personalizado Padrão</h2>
+
+   <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem itaque inventore incidunt amet hic modi voluptas dolor? 
+    </p>
+
+
+
+    </p>
+
+   <h2 class="google"> Seletor para Google</h2>
+
+    <p>Lorem i<span class="padrao">psum dolor sit amet consecteturad ipisicing </span>elit. Repudiandae soluta saepe odio aspernatur incidunt architecto aliquid ipsum minus asperiores? 
+
+    </p>
+    
+
+    <h2 class="local">Seletor local</h2>
+
+    <p >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus voluptatibus a mollitia nisi ducimus pariatur cupiditate. 
+    </p>
+
+    <h1>Segunda parte aula: Identificadores em CSS</h1>
+   
+    <h2 class="padrao">Seletor personalizado Padrão</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem itaque inventore incidunt amet hic modi voluptas dolor?
+    
+</p>
+
+<h2 class="google"> Seletor para Google</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae soluta saepe odio aspernatur incidunt architecto aliquid ipsum minus asperiores? 
+        
+    </p>
+    
+
+    <h2 class="local, cor-de-fundo">Seletor local</h2>
+
+    <p >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus voluptatibus a mollitia nisi ducimus pariatur cupiditate. 
+    </p>

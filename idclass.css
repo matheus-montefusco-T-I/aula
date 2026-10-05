@@ -1,0 +1,33 @@
+@charset "UTF-8";
+ 
+body {
+    font: 12pt Arial; background-color: blanchedalmond; 
+        }
+    #primeiro-titulo {
+        text-align: right; background-color: aqua;
+        }    
+h1 {
+         text-align: center; font-size: 1.4em; font-weight: bold; color:
+        }
+/* em css # refere-se ao elemento id do html  (apenas 1 por documento doc html*/
+/* em css . refere-se ao elemento class do html (podemos ter varios no mesmo html)*/
+
+
+        .padrao {
+            font-family: Arial, Helvetica, sans-serif;text-indent: 50pt;
+        color: brown; font-weight: bold;
+        }
+
+        .google {
+            font-family: 'Pacifico', cursive; color: chartreuse;
+        }
+
+        .local {
+            font-family: 'Minha Fonte', sans-serif;color: blueviolet;
+        }
+
+        .destaque {
+      background-color: blue;
+        }
+
+       

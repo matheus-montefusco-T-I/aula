@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>JavaScript - Estados e Municípios</title>
+  <link rel="shortcut icon" href="favicon_io/android-chrome-512x512.png" type="image/x-icon">
+ 
+  <link rel="stylesheet" href="style 2.css">
+
+  <!--
+  <scrip src="java.js" defer></script>
+    -->
+
+</head>
+
+<body>
+
+  <!-- Conteúdo principal do documento -->
+  <main class="container">
+
+    <!-- Cabeçalho introdutório da página -->
+    <header>
+      <h1>Na segunda-feira só vêm os melhores! &#x2764</h1>
+
+      <p>
+        Vamos personalizar sua saudação usando JavaScript!
+      </p>
+
+      <p>
+        JavaScript é parte da tríade de tecnologias da web,
+        junto com HTML e CSS.
+      </p>
+    </header>
+
+    <!-- Saudação (parágrafo dinâmico) -->
+    <p class="saudacao" id="mensagemSaudacao">
+      Olá, visitante!
+    </p>
+
+    <button type="button" onclick="nome()">
+      Personalização ao clicar
+    </button>
+
+
+    <!-- Seção temática para o formulário -->
+    <section class="formulario">
+
+      <h2>Cadastre seus dados</h2>
+
+      <form action="cadastro.php" method="get" autocomplete="on" id="formulario">
+
+        <!-- Nome -->
+        <fieldset class="campo">
+  
+          <label for="nomeUsuario">
+            Nome: </label>
+            <input
+            type="text" 
+            autocomplete="username"
+            nome="nome Usuario"
+            id="nomeUsuario"
+            placeholder="Digite seu nome"
+            required>
+         
+          </fieldset>
+
+        <fieldset class="campo">
+         <!-- senha -->
+         <label for="senhaUsuario">
+            senha: </label>
+            <input
+            type="password"
+            autocomplete="current-password"
+            nome="senhaUsuario"
+            id="senhaUsuario"
+            placeholder="Digite sua senha"
+            required>
+         </fieldset>
+
+
+        <!-- Estado -->
+        <fieldset class="campo">
+
+          <label for="estado">
+            Estado:
+          </label>
+
+          <select id="estado" required>
+
+            <option value="">
+              Carregando estados...
+            </option>
+
+          </select>
+
+        </fieldset>
+
+
+        <!-- Município -->
+        <fieldset class="campo">
+
+        </fieldset>
+
+          <label for="municipio">
+            Município:
+          </label>
+
+          <select id="municipio" required disabled>
+
+            <option value="">
+              Primeiro selecione um estado
+            </option>
+
+          </select>
+
+        </fieldset>
+
+
+        <!-- Botão -->
+        <button type="submit" class="btn-enviar">
+          Enviar formulário
+        </button>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <script src="java.js"></script>
+
+</body>
+
+</html>
